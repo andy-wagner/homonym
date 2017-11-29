@@ -6,7 +6,7 @@ of homonyms, we want to obtain a large amount of data for each meaning.
 ## Intalling
 
 - create a python >= 3.4 [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) environment
-- `git clone https://github.com/QwantResearch/homonym/ && cd homonym`
+- `git clone git@github.com:QwantResearch/homonym.git && cd homonym`
 - `pip install -r requirements.txt`
 
 ## Running
