@@ -14,3 +14,26 @@ of homonyms, we want to obtain a large amount of data for each meaning.
 Simply:
 
     python main.py
+    
+# Usage
+
+# List of keywords
+
+Suppose we want to retrieve all the websites about python search word. We have two main meanings :
+* python : the reptile
+* python : the computer language
+
+We need to define a list of words related to the right meaning : 
+```python
+mainSearchedWord = "python"
+myKeywords = {"python_reptile": ["reptile", "serpent"],
+              "python_computer": ["langage", "linux", ]
+              }
+```
+
+Homonym will compute several query strings based on those wordlists for each meaning. 
+
+# Storage in MongoDb
+
+We obtain 3 values for each website : *url*,*content* and *category*. 
+We store them in mongoDB.
