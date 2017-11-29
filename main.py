@@ -150,19 +150,3 @@ for category in myKeywords:
     print("We retrieve *{}* urls for the category *{}* \nwith the following keywords : \n{}.".format(
         count, category, myKeywords[category]))
     storeDB(urlSet, category)
-
-
-# write file
-
-# f = open(filename, "w")
-# f.write(str(mySet))
-
-
-# r = getResultText(url_google, querystring)
-# soup = BeautifulSoup(r, 'lxml')
-# # print(soup)
-# elements = soup.find_all(class_="rc")
-# # elements = soup.find_all("a", class_="b_algo")
-# for element in elements:
-#     print(element.find('a').get('href'))
-#     print("\n")
